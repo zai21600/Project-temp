@@ -78,7 +78,7 @@ public class BookView {
 				
 				
 				bookInfo.add((javax.json.JsonValue) Json.createObjectBuilder().add("chapterID", rs.getInt(1))
-		        													.add("title", rs.getString(2))
+		        													.add("chapterName", rs.getString(2))
 		        													.add("content", rs.getString(3))
 		        													.add("footnote", footnote.build())
 		        													.build());
